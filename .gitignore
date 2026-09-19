@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# YOLO generated outputs
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arduino temporary/build files
+build/
+*.bin
+*.elf
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment / secret files
+.env
+.env.*
+secrets.h
+credentials.h
+config_private.h
